@@ -1,0 +1,37 @@
+header {
+  background: #33c4c6; }
+
+.menu-btn__line {
+  display: block;
+  width: 24px;
+  height: 2px;
+  margin-bottom: 3px;
+  background-color: #FFF;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left; }
+  .menu-btn__line:nth-child(4) {
+    width: 20px;
+    margin: 0; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.container-span {
+  margin-top: 2rem;
+  margin-left: 8rem; }
+
+figure {
+  width: 100%; }
+
+.logo {
+  width: 3rem;
+  margin-right: -1rem;
+  margin-top: 0.6rem; }
