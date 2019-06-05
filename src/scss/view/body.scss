@@ -4,8 +4,28 @@ header{
 
  
 }
+
+
 body{
     margin: 0 auto; 
+}
+
+.container-1{
+display:flex;
+}
+
+.box-1{
+flex:1;
+}
+
+
+.box-2{
+  flex:2;  
+}
+
+
+.box-3{
+    flex:2;
 }
 .menu-btn__line {
   display: block;
@@ -15,9 +35,9 @@ body{
   background-color: #FFF;
   transition: transform 0.3s ease-in-out;
   transform-origin: left;
-
-
   }
+
+
 .menu-btn__close{
     display: block;
     width: 14px;
@@ -105,8 +125,8 @@ h1{
 
 .shoes{
     width: 12rem;
-    margin-top: -4rem;
-    margin-left: 3rem;
+    margin-top: -6rem;
+    margin-left: 1rem;
 }
 
 .sliderA{
