@@ -1,177 +1,202 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
-   
-    background:#63d5d7;
-    margin:0 auto;
+body {
+
+    background: #63d5d7;
+    margin: 0 auto;
 }
 
-.a{
-    height:5px;
+.a {
+    height: 5px;
     width: 30px;
     background: white;
-    margin:4px;
+    margin: 4px;
     border-radius: 50px;
 
 }
-.logo{
+
+.logo {
     width: 70%;
 }
-.b{
-    height:5px;
+
+.b {
+    height: 5px;
     width: 30px;
     background: white;
-    margin:3px;
+    margin: 3px;
     border-radius: 50px;
 }
 
-.container-1{
+.container-1 {
     display: flex;
     justify-content: space-between;
-    margin:2rem;
-}
-.container-2{
-    margin:2rem;
+    margin: 2rem;
 }
 
-h1{
- font-family: 'Open Sans Condensed', sans-serif;
- font-size: 2rem;
- color: white;
+.container-4 {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
 }
-.sliderA{
-    background:white;
-    border-radius:50%;
-    width:0.5rem;
-    height:0.5rem;
-    border:2px solid white; 
+
+.container-2 {
+    margin: 2rem;
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.sliderA {
+    background: white;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 2px solid white;
     text-decoration: none;
     list-style: none;
 }
 
-h2{
+h2 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 2rem;
 }
-h3{
+
+h3 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1rem;
 }
-.sliderB{
-    background:#b9eced;
-    border-radius:50%;
-    width:0.5rem;
-    height:0.5rem;
-    border:2px solid white; 
+
+.sliderB {
+    background: #b9eced;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 2px solid white;
     text-decoration: none;
     list-style: none;
     display: flex;
     justify-content: space-around;
 
 }
-.contain-slider{
+
+.contain-slider {
     margin: 1rem 7rem;
-  
+
 }
-.slider{
+
+.slider {
     display: flex;
     justify-content: flex-start;
     padding: 0;
-    
-    
+
+
 }
 
-.blue{
-    background:#30c8ca;
-    border-radius:50%;
-    width:1.5rem;
-    height:1.5rem;
-    border:2px solid white; 
+.blue {
+    background: #30c8ca;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid white;
     text-decoration: none;
     list-style: none;
+    box-shadow: 0px 2px 15px #30c8ca;
 }
 
-.gray{
-    background:#a3a3a3;
-    border-radius:50%;
-    width:1.5rem;
-    height:1.5rem;
-    border:2px solid white; 
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.rose{
-    background:#fa63a7;
-    border-radius:50%;
-    width:1.5rem;
-    height:1.5rem;
-    border:2px solid white; 
+.gray {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid white;
     text-decoration: none;
     list-style: none;
     display: flex;
     justify-content: space-around;
+
+}
+
+.rose {
+    background: #fa63a7;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid white;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 
-.shoes{
-    width:100%;
+.shoes {
+    width: 100%;
     margin-top: -12rem;
 }
 
-.container-border-radius{
+.container-border-radius {
     height: 40rem;
     background: white;
     border-radius: 50px;
     padding-top: 3rem;
+    width: 100%;
+
 }
 
-.slider-2{
+.slider-2 {
     display: flex;
     justify-content: flex-start;
-  
-    margin-top:2rem;
-    
-    
+
+    margin-top: 2rem;
+
+
 }
-.slider-3{
+
+.slider-3 {
     display: flex;
     justify-content: flex-start;
-   
+
     text-decoration: none;
-    list-style: none; 
+    list-style: none;
     padding: 0;
 
 }
-.slider-4{
+
+.slider-4 {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    list-style: none; 
+    list-style: none;
     padding: 0;
 
 }
 
-.button-type{
+.button-type {
     display: block;
-                background: #79ccff;
-                background: -moz-linear-gradient(45deg, #79ccff 0%, #6270ff 100%);
-                background: -webkit-linear-gradient(45deg, #79ccff 0%, #6270ff 100%);
-                background: linear-gradient(45deg, #79ccff 0%, #6270ff 100%);
-                padding: 13px 7rem;
-                color: white;
-                border-radius: 10px;
-                font-family: 'Open Sans Condensed', sans-serif;
-                font-weight: bold;
-                box-shadow: 0px 2px 15px #30b0ca;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#30baca+0,3050ca+100 */
+    background: #30baca;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #30baca 0%, #3050ca 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #30baca 0%, #3050ca 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #30baca 0%, #3050ca 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* IE6-9 fallback on horizontal gradient */
+    padding: 13px 7rem;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 2px 15px #30b0ca;
 }
 
-.number{
+.number {
     color: #a3a3a3;
     font-size: 1rem;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -179,26 +204,114 @@ h3{
     font-weight: bold;
 }
 
-.black{
+.black {
     color: black;
     font-size: 1rem;
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 8px;
     font-weight: bold;
 }
-.ligne{
+
+.ligne {
     margin-top: 1rem;
     height: 1px;
-    background:#a3a3a3;
+    background: #a3a3a3;
     width: 19rem;
-   
+
 }
 
-p{
-     font-family: 'Open Sans', sans-serif;
-     color: #a3a3a3;
+.ligne-2 {
+    margin-top: 1rem;
+    height: 1px;
+    background: #a3a3a3;
+    width: 19rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #a3a3a3;
 }
 
 
-  
-   
+
+@media only screen and (min-width: 667px) {
+
+    //some value
+    .shoes {
+        width: 20rem;
+
+
+    }
+
+    figure {
+        margin-left: -7rem;
+        margin-top: 10rem;
+    }
+
+    .container-1 {
+        margin-left: 2rem;
+        margin-right: -10rem;
+    }
+
+    .container-4 {
+
+        flex-direction: row;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+        margin-left: 26rem;
+        display: flex;
+    }
+
+    .slider-2 {
+        margin-left: -13rem;
+        margin-right: 17rem;
+        margin-top: -12rem;
+    }
+
+    p {
+        display: none;
+    }
+
+    h2 {
+        margin-top: -12.5rem;
+        margin-left: -3rem;
+    }
+
+    .ligne-2 {
+        display: none;
+
+    }
+
+    .ligne {
+        margin-left: 14rem;
+        width: 24rem;
+        margin-top: -9rem;
+    }
+
+    h3 {
+        margin-left: 31rem;
+    }
+
+    .slider-3 {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .slider-4 {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+
+@media only screen and (min-width: 667px) {
+
+    //some value
+    .container-border-radius {
+
+        margin-left: 10rem;
+        height: 28rem;
+    }
+
+
+}
